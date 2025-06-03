@@ -60,10 +60,11 @@ It also includes a simple **Deno** script to demonstrate usage and compare both 
 
 ## Setup Instructions (Deno)
     Here are instructions
-    Ensure Deno is installed: <https://deno.land/manual@v1.41.0/getting_started/installation>
+    Ensure Deno is installed: https://deno.land/manual@v1.41.0/getting_started/installation
     
 1. **Run Script**
     ```bash
+    cd deno-intro
     deno run --allow-read ./deno/list_books.ts
 
 ## Node.js vs DenoJS - Brief Comparison
