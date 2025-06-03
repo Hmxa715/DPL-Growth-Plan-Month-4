@@ -93,7 +93,7 @@ book-management-api/
 ├── models/              # SQLite DB & helper functions
 ├── routes/              # Express routers
 ├── swagger.js           # Swagger config
-├── deno/                # Deno demo scripts
+├── deno-intro/          # Deno demo scripts
 ├── .env                 # Environment variables
 ├── app.js               # Main Express app
 └── README.md
