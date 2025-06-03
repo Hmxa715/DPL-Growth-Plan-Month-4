@@ -14,7 +14,7 @@ It also includes a simple **Deno** script to demonstrate usage and compare both 
 - Swagger documentation using `swagger-jsdoc` and `swagger-ui-express`
 - SQLite as the database (persistent file-based storage)
 - Modular and scalable project structure
-- Simple Deno script to list books
+- Simple Deno script to show text from an example.txt file
 
 ---
 
