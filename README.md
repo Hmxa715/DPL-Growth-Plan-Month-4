@@ -39,30 +39,31 @@ It also includes a simple **Deno** script to demonstrate usage and compare both 
 ## Setup Instructions (Node.js)
 
 1. **Clone the Repository**
-   ``bash
-   git clone <https://github.com/Hmxa715/DPL-Growth-Plan-Month-4.git>
+   ```bash
+   git clone https://github.com/Hmxa715/DPL-Growth-Plan-Month-4.git
    cd DPL-Growth-Plan-Month-4
-2. ** install packages
-    ``bash
-    npm install
-3. ** Create .env file and add code
-   ``bash
-    PORT=3000
-    DB_FILE=./books.db
-4. ** Run Project
-    ``bash
-    npm start
-5. **Access the API
-    API Base URL: <http://localhost:3000/api/books>
-    Swagger Docs: <http://localhost:3000/api-docs>
-    GraphQL UI: <http://localhost:3000/graphql>
+3. **install packages**
+    ```bash
+   npm install
+4. **Create .env file and add code**
+   ```bash
+   PORT=3000
+   DB_FILE=./books.db
+5. ** Run Project**
+    ```bash
+   npm start
+6. **Access the API**
+
+- API Base URL: http://localhost:3000/api/books  
+- Swagger Docs: http://localhost:3000/api-docs  
+- GraphQL UI: http://localhost:3000/graphql
 
 ## Setup Instructions (Deno)
-    Here are instruction
+    Here are instructions
     Ensure Deno is installed: <https://deno.land/manual@v1.41.0/getting_started/installation>
     
-1. ** Run Script
-    ``bash
+1. **Run Script**
+    ```bash
     deno run --allow-read ./deno/list_books.ts
 
 ## Node.js vs DenoJS - Brief Comparison
@@ -78,11 +79,12 @@ It also includes a simple **Deno** script to demonstrate usage and compare both 
 
 ## Verdict
 
-1.Use Node.js for mature production-grade applications.
-2.Use Deno for modern, lightweight scripting or projects prioritizing security and TypeScript-first development.
+1. Use Node.js for mature production-grade applications.
+2 .Use Deno for modern, lightweight scripting or projects prioritising security and TypeScript-first development.
 
 ## Project Structure
 
+```
 book-management-api/
 │
 ├── controllers/         # Route handlers
@@ -94,3 +96,5 @@ book-management-api/
 ├── .env                 # Environment variables
 ├── app.js               # Main Express app
 └── README.md
+```
+
